@@ -1,7 +1,38 @@
-.App-header {
+.wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: black;
+  background-color: #a3effd;
+  min-height: 100vh;
+  font-family: 'Georgia', serif;
+}
+
+.main-page {
+  padding: 1em;
   font-size: 1.5em;
+}
+
+.intro {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Inputs */
+
+label {
+  display: flex;
+  flex-direction: row;
+
+}
+
+select {
+  margin-left: 0.5em;
+  font-size: 1em;
+}
+
+input {
+  margin-left: 0.5em;
+}
+
+input[type=number] {
+  font-size: 1em;
 }

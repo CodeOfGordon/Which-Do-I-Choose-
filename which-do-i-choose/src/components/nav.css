@@ -1,0 +1,10 @@
+.head {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding: 0.3em 0 0.3em 0;
+    font-size: 4em;
+    font-family: 'Georgia', serif;
+    color: #ffe400;
+    background-color: #09b8f6;
+}
