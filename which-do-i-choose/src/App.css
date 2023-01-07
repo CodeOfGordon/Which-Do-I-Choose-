@@ -21,7 +21,6 @@
 label {
   display: flex;
   flex-direction: row;
-
 }
 
 select {
@@ -31,8 +30,12 @@ select {
 
 input {
   margin-left: 0.5em;
+  font-size: 0.7em;
 }
 
-input[type=number] {
-  font-size: 1em;
+.currency {
+  position: relative;
+  left: 0.5em;
+  width:1em;
 }
+
