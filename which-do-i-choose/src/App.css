@@ -1,18 +1,24 @@
 .wrapper {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
   background-color: #a3effd;
   min-height: 100vh;
   font-family: 'Georgia', serif;
 }
 
 .main-page {
+  flex: content;
   padding: 1em;
   font-size: 1.5em;
 }
 
 .intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+  font-size: 1.5em;
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -39,3 +45,8 @@ input {
   width:1em;
 }
 
+/* Misc */
+#graph{
+  width: 600px;
+  margin-right: 25px;
+}
