@@ -3,11 +3,11 @@ import { Line } from "react-chartjs-2";
 import {Chart as ChartJS} from 'chart.js/auto'
 
 function Graph({datas, amount, x_axis, y_axis}){
-    const Data = {
+    var Data = {
         labels: amount,
         datasets: [{
-            label: 'Possible combinations',
-            data: datas
+            label: datas[0].label,
+            data: datas[0].data
           }]
     }
     
@@ -16,8 +16,8 @@ function Graph({datas, amount, x_axis, y_axis}){
             y: {
               title: {
                 display: true,
-                text: y_axis
-              }
+                text: y_axis,
+              },
             },
             x: {
               title: {
